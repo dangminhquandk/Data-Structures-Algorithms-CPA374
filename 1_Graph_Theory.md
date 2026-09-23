@@ -4,7 +4,6 @@
 > **Standard**: C++20 | Cache-Friendly | Zero-Memory-Leak | Strict Big-O Complexity.
 
 ---
-
 ## 1. 📐 Mô Hình Hóa Toán Học & Cấu Trúc Đồ Thị
 
 Mọi bài toán thực tế (bản đồ, mạng lưới, lưới ô vuông $R \times C$, đồ thị phụ thuộc công việc) đều được quy đổi về mô hình toán học trừu tượng:
