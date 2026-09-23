@@ -1,56 +1,42 @@
 # Prerequisites
 *.d
-
-# Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
-
-# Precompiled Headers
 *.gch
 *.pch
-
-# Linker files
 *.ilk
-
-# Debugger Files
 *.pdb
 
-# Compiled Dynamic libraries
+# Compiled Dynamic / Static libraries
 *.so
 *.dylib
 *.dll
 *.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
 
-# Executables
+# Executables & Debug symbols
 *.exe
 *.out
 *.app
+*.dSYM/
+*.dwo
 
-# Build directories
+# Build directories & CMake
 build/
 Build/
 build-*/
-
-# CMake generated files
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
-install_manifest.txt
 compile_commands.json
+Testing/
+.cache/
+vcpkg_installed/
 
 # Temporary files
 *.tmp
@@ -58,12 +44,23 @@ compile_commands.json
 *.bak
 *.swp
 
-# vcpkg
-vcpkg_installed/
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+# Ignore compiled binaries without extension, but keep source code and configs
+*
+!*/
+!*.cpp
+!*.h
+!*.hpp
+!*.sql
+!*.inp
+!*.out
+!*.json
+!*.md
+!*.txt
+!*.sh
+!.gitignore
+!LICENSE

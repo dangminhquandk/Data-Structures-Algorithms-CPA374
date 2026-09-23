@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug C++ (LLDB)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            // Dòng này cực quan trọng: Nó tự động kích hoạt Build trước khi Debug
+            "preLaunchTask": "Build C++ (Clang Optimize)" 
+        }
+    ]
+}

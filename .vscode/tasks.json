@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build C++ (Clang Optimize)", 
+            "command": "/usr/bin/clang++",
+            "args": [
+                "-fcolor-diagnostics",
+                "-fansi-escape-codes",
+                "-g",                    
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                
+                // --- CÁC NÂNG CẤP HỆ THỐNG ---
+                "-std=c++17",            // Chuẩn hóa: Sử dụng chuẩn C++17 (Hiện đại & Ổn định)
+                "-Wall",                 // Kiểm soát chất lượng: Bật tất cả cảnh báo cơ bản
+                "-Wextra",               // Kiểm soát chất lượng: Bật thêm cảnh báo nâng cao
+                "-pedantic"              // Tuân thủ nghiêm ngặt chuẩn ISO C++
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true     // Đặt làm mặc định: Bấm Cmd+Shift+B là chạy ngay
+            },
+            "detail": "Compiler for Apple Silicon (Strict Mode)"
+        }
+    ]
+}
