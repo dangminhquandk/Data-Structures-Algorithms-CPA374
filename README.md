@@ -5,9 +5,8 @@ A rigorous repository of advanced Data Structures & Algorithms tailored for Sams
 ## 👤 About Me
 - **Author**: Đặng Minh Quân
 - **Institution**: Hanoi University of Science and Technology (HUST)
-- **Current CPA**: 3.74/4.0 (Ranked: High Distinction)
+- **Current CPA**: 3.77/4.0 (Ranked: High Distinction)
 - **Expected Graduation**: 2028
-- **Goal**: Software Engineering Intern at Samsung Research Vietnam (SRV).
 
 ## 🎯 Focus Areas
 Mastering competitive programming and problem-solving patterns tailored to algorithmic requirements:
