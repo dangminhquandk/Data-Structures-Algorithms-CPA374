@@ -1,6 +1,6 @@
 # 🕸️ Graph Theory & Algorithms Master Handbook
 
-> **Target**: Samsung SW Competency Test (Advanced / Professional), Competitive Programming & HUST Algorithm Curriculum.  
+> **Target**: Competitive Programming & HUST Algorithm Curriculum.  
 > **Standard**: C++20 | Cache-Friendly | Zero-Memory-Leak | Strict Big-O Complexity.
 
 ---
