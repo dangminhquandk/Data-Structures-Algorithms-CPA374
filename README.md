@@ -51,6 +51,7 @@ Mastering competitive programming and problem-solving patterns tailored to algor
 * **[LinkedList.cpp](LinkedList.cpp)** & **[test_LinkedList.cpp](test_LinkedList.cpp)**: Cài đặt và kiểm thử danh sách liên kết đơn tổng quát (Template Singly Linked List) chuẩn C++ OOP.
 
 ### 4. 🕸️ Đồ Thị, Tham Lam & Tìm Kiếm Nhị Phân (Graph, Greedy & Binary Search)
+* **[1_Graph_Theory](1_Graph_Theory)**: Cẩm nang toàn diện Lý thuyết đồ thị (Graph Theory Handbook) - Ma trận độ phức tạp, Dijkstra, 0-1 BFS, Kruskal DSU, Kahn Topo sort, Multi-State BFS chuyên sâu cho Samsung SW Test.
 * **[Dijkstra.cpp](Dijkstra.cpp)**: Đường đi ngắn nhất trên đồ thị trọng số dương sử dụng Min-Heap (`std::priority_queue`) với độ phức tạp $O((V + E) \log V)$.
 * **[bfs.cpp](bfs.cpp)**: Duyệt đồ thị theo chiều rộng (Breadth-First Search).
 * **[max_distance_subset.cpp](max_distance_subset.cpp)**: Tìm kiếm nhị phân trên không gian nghiệm (Binary Search on Answer) cho bài toán Aggressive Cows.

@@ -64,3 +64,7 @@ vcpkg_installed/
 !*.sh
 !.gitignore
 !LICENSE
+!1_Graph_Theory
+!2_DP_Backtracking
+!3_Core_Data_Structures
+!Utils
