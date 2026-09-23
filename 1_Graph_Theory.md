@@ -54,7 +54,7 @@ void add_edge(int u, int v, int w) {
 | **Floyd-Warshall** | $O(V^3)$ | $O(V^2)$ | Mọi cặp đỉnh, $V \le 500$. | Sau bước lặp $k$, $dp[i][j]$ là đường đi ngắn nhất từ $i$ đến $j$ chỉ đi qua các đỉnh trung gian $\{1 \dots k\}$. |
 | **Kruskal (DSU)** | $O(E \log E)$ | $O(V + E)$ | Tìm Cây khung nhỏ nhất (MST). | Luôn chọn cạnh có trọng số nhỏ nhất mà không tạo chu trình (nối 2 thành phần liên thông rời rạc). |
 | **Prim (Min-Heap)** | $O((V + E) \log V)$ | $O(V)$ | Tìm MST trên đồ thị dày ($E \approx V^2$). | Cây khung con luôn tăng trưởng bằng cách nạp đỉnh gần nhất chưa thuộc cây. |
-| **Kahn (Topological Sort)** | $O(V + E)$ | $O(V)$ | Đồ thị có hướng không chu trình (DAG). | Hàng đợi luôn chỉ chứa các đỉnh có bán bậc vào $\text{in\_degree}[u] = 0$. |
+| **Kahn (Topological Sort)** | $O(V + E)$ | $O(V)$ | Đồ thị có hướng không chu trình (DAG). ||
 | **Tarjan (SCC / Bridges)** | $O(V + E)$ | $O(V)$ | Phân rã thành phần liên thông mạnh / tìm cầu, khớp. | $low[u]$ là chỉ số DFS nhỏ nhất vươn tới được từ cây con gốc $u$ qua tối đa 1 cạnh ngược. |
 
 ---
